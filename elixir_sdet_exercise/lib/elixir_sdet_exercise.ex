@@ -15,10 +15,10 @@ Provides reusable methods to open facebook page and do negative testings on the 
     reenter_email_el = find_element(:name, "reg_email_confirmation__")
     new_password_el = find_element(:id, "password_step_input")
 
-    female_bttn = find_element(:xpath, "//input[@class='_8esa'])[1]")
-    male_bttn = find_element(:xpath, "//input[@class='_8esa'])[2]")
+    female_bttn = find_element(:xpath, "(//input[@class='_8esa'])[1]")
+    male_bttn = find_element(:xpath, "(//input[@class='_8esa'])[2]")
 
-    custom_bttn = find_element(:xpath, "//input[@class='_8esa'])[3]")
+    custom_bttn = find_element(:xpath, "(//input[@class='_8esa'])[3]")
     pronoun_bttn = find_element(:name, "preferred_pronoun")
 
     email_loginpage_el = find_element(:id, "email")
